@@ -14,5 +14,13 @@ public class BookTester
         
         System.out.println(b1);
         System.out.println(b2);
+        
+        b1.setTitle("Hello");
+        System.out.println(b1.getTitle());
+        b1.setAuthor("Rhys Colman");
+        System.out.println(b1.getAuthor());
+        b1.setPageNumbers(2);
+        System.out.println(b1.getPageNumbers());
+        
     }
 }
