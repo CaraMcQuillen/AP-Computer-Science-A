@@ -10,7 +10,7 @@ public class DeletionsEasyTester
    public static void main (String[] args) 
    {
        ArrayList<Integer>tester = new ArrayList<>();
-       
+       tester.add(7);
        tester.add(3);
        tester.add(5);
        tester.add(8);
