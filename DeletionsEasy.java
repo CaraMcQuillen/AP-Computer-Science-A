@@ -44,6 +44,18 @@ public class DeletionsEasy
                  }
                 System.out.println("");
                 }
+            else if (index == 0 && numbers.size()==1)
+            {
+                for(int i = index; i >= 0; i--)
+                    numbers.remove(i);
+                count ++;
+                for(int i = 0; i < numbers.size(); i++)
+                  {
+                   System.out.print(numbers.get(i));
+                 }
+                System.out.println("");
+            
+            }
             
             int max = 0;
             int maxLocation = 0;
